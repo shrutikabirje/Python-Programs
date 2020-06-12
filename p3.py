@@ -4,7 +4,7 @@ Given input String of combination of the lower and upper case arrange characters
 
 
 s=input("enter the string")
-s.split()
+s1=""
 lower = []
 upper = []
 for i in s:
@@ -12,5 +12,4 @@ for i in s:
         lower.append(i)
     else:
         upper.append(i)
-sort ="".join(lower + upper)
-print(sort)
+print(s1.join(lower+upper))
