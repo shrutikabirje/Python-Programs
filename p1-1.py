@@ -1,4 +1,6 @@
 def fun(lst):
-    for i in range(len(lst)-1,-1,-1):
-        print(lst[i])
+    s=lst[::-1]
+    for i in s:
+        print(i)
+    
 print(fun([10,20,30,40,50]))
